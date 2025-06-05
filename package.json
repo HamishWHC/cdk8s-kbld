@@ -1,0 +1,13 @@
+{
+	"name": "cdk8s-kbld",
+	"module": "src/index.ts",
+	"type": "module",
+	"private": true,
+	"devDependencies": {
+		"typescript": "^5"
+	},
+	"dependencies": {
+		"cdk8s": "^2.69.72",
+		"constructs": "^10.4.2"
+	}
+}

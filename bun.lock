@@ -1,0 +1,28 @@
+{
+  "lockfileVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "cdk8s-kbld",
+      "dependencies": {
+        "cdk8s": "^2.69.72",
+        "constructs": "^10.4.2",
+      },
+      "devDependencies": {
+        "typescript": "^5",
+      },
+    },
+  },
+  "packages": {
+    "cdk8s": ["cdk8s@2.69.72", "https://packages.atlassian.com/api/npm/npm-remote/cdk8s/-/cdk8s-2.69.72.tgz", { "dependencies": { "fast-json-patch": "^3.1.1", "follow-redirects": "^1.15.9", "yaml": "2.8.0" }, "peerDependencies": { "constructs": "^10" } }, "sha512-BhAnG7esSZDH9JcZ+Relv53Z94Bm58OmtunVYSNX/m0QFzOEw496w+JRI2DUfd2Vsl85FTCV5drLctF9btFBLA=="],
+
+    "constructs": ["constructs@10.4.2", "https://packages.atlassian.com/api/npm/npm-remote/constructs/-/constructs-10.4.2.tgz", {}, "sha512-wsNxBlAott2qg8Zv87q3eYZYgheb9lchtBfjHzzLHtXbttwSrHPs1NNQbBrmbb1YZvYg2+Vh0Dor76w4mFxJkA=="],
+
+    "fast-json-patch": ["fast-json-patch@3.1.1", "https://packages.atlassian.com/api/npm/npm-remote/fast-json-patch/-/fast-json-patch-3.1.1.tgz", {}, "sha512-vf6IHUX2SBcA+5/+4883dsIjpBTqmfBjmYiWK1savxQmFk4JfBMLa7ynTYOs1Rolp/T1betJxHiGD3g1Mn8lUQ=="],
+
+    "follow-redirects": ["follow-redirects@1.15.9", "https://packages.atlassian.com/api/npm/npm-remote/follow-redirects/-/follow-redirects-1.15.9.tgz", {}, "sha512-gew4GsXizNgdoRyqmyfMHyAmXsZDk6mHkSxZFCzW9gwlbtOW44CDtYavM+y+72qD/Vq2l550kMF52DT8fOLJqQ=="],
+
+    "typescript": ["typescript@5.8.3", "https://packages.atlassian.com/api/npm/npm-remote/typescript/-/typescript-5.8.3.tgz", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ=="],
+
+    "yaml": ["yaml@2.8.0", "https://packages.atlassian.com/api/npm/npm-remote/yaml/-/yaml-2.8.0.tgz", { "bin": { "yaml": "bin.mjs" } }, "sha512-4lLa/EcQCB0cJkyts+FpIRx5G/llPxfP6VQU5KByHEhLxY3IJCH0f0Hy1MHI8sClTvsIb8qwRJ6R/ZdlDJ/leQ=="],
+  }
+}
