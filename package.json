@@ -1,13 +1,32 @@
 {
 	"name": "cdk8s-kbld",
-	"module": "src/index.ts",
+	"version": "0.1.0",
+	"license": "MIT",
+	"author": {
+		"name": "HamishWHC",
+		"url": "https://github.com/HamishWHC/"
+	},
+	"repository": {
+		"url": "https://github.com/HamishWHC/cdk8s-kbld"
+	},
 	"type": "module",
-	"private": true,
-	"devDependencies": {
-		"typescript": "^5"
+	"module": "./build/index.js",
+	"types": "./build/index.d.ts",
+	"scripts": {
+		"format": "prettier -w .",
+		"check": "tsc --noEmit",
+		"build": "tsc"
 	},
 	"dependencies": {
-		"cdk8s": "^2.69.72",
+		"cdk8s": "^2.69.72"
+	},
+	"devDependencies": {
+		"cdk8s-plus-31": "^2.2.4",
+		"prettier": "^3.5.3",
+		"typescript": "^5",
 		"constructs": "^10.4.2"
-	}
+	},
+	"files": [
+		"build"
+	]
 }
